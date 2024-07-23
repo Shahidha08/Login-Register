@@ -1,0 +1,34 @@
+.nav-container {
+    background-color: #3e3a3a;
+    border-radius: 12px; /* Changed to pixels for better control */
+    padding: 20px; /* Added padding for better spacing */
+    display: flex; /* Ensure it's a flex container */
+    justify-content: center; /* Center the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for a subtle effect */
+}
+
+.nav-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* Ensure it takes full width */
+}
+
+.nav-container li {
+    margin: 0 10px; /* Added margin for better spacing between items */
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 16px; /* Adjusted padding for better clickability */
+    border-radius: 4px; /* Added border-radius for smoother edges */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Specify properties for transition */
+}
+
+.nav-container a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
