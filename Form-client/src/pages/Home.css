@@ -1,34 +1,36 @@
 .nav-container {
     background-color: #3e3a3a;
-    border-radius: 12px; /* Changed to pixels for better control */
-    padding: 20px; /* Added padding for better spacing */
-    display: flex; /* Ensure it's a flex container */
-    justify-content: center; /* Center the content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for a subtle effect */
+    border-radius: 12px; /* Rounded corners for a smooth look */
+    padding: 20px; /* Padding for better spacing */
+    max-width: 1000px; /* Limit the width of the container */
+    margin: 20px auto; /* Center the container and add top/bottom margin */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
 }
 
 .nav-container ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Evenly space items */
     width: 100%; /* Ensure it takes full width */
 }
 
 .nav-container li {
-    margin: 0 10px; /* Added margin for better spacing between items */
+    margin: 0 10px; /* Spacing between items */
 }
 
 .nav-container a {
-    text-decoration: none;
-    color: #007bff;
-    padding: 8px 16px; /* Adjusted padding for better clickability */
-    border-radius: 4px; /* Added border-radius for smoother edges */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Specify properties for transition */
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+    padding: 10px 20px; /* Adjusted padding for better clickability */
+    border-radius: 4px; /* Rounded edges */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+    font-weight: bold; /* Bold text for better readability */
 }
 
 .nav-container a:hover {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #007bff; /* Hover background color */
+    color: #fff; /* Hover text color */
 }

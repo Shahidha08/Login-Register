@@ -1,14 +1,13 @@
-import React from 'react'
-import {Link} from 'react-router-dom';
-import './Welcome.css'
-function Welcome()  {
+import React from 'react';
+import './Welcome.css';
+import ToDo from '../components/SimpleTo-Do'
+
+function Welcome() {
     return (
-      <>
-      <div>
-        <h1>Welcome</h1>
-        <Link to="/">Back to Home</Link>
-      </div>
-      </>
+        <>
+            <ToDo/>
+        </>
     );
 }
+
 export default Welcome;
